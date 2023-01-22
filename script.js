@@ -12,20 +12,3 @@ btn.addEventListener("click", function (e) {
   }
   console.log(count);
 });
-
-/*
-let dark = false;
-const btn = document.querySelector("button");
-btn.addEventListener("click", function (e) {
-  dark = !dark; // löscht boolean
-  if (dark) {
-    document.body.classList.add("body-dark");
-    btn.classList.add("btn-dark");
-    document.title = "Good Night";
-  } else {
-    document.body.classList.remove("body-dark");
-    btn.classList.remove("btn-dark");
-    document.title = "Good Morning";
-  }
-});
-*/
